@@ -195,6 +195,7 @@ h6 {
   font-size: 24px;
   margin-bottom: 30px;
   background: linear-gradient(140deg, #9083d5, #271776ca);
+  cursor: pointer;
 }
 .form-component .wrapper {
   display: flex;
@@ -486,6 +487,7 @@ nav .logoutBtn {
 }
 nav .loginBtn {
   background: linear-gradient(135deg, black, rgb(49, 49, 49));
+  cursor: pointer;
 }
 nav .hamburger {
   display: none;
