@@ -15,7 +15,7 @@ import messagerouter from './routes/messageroute.js';
 dotenv.config();
 
 const port = process.env.PORT || 3000;
-mongoose.connect(process.env.MONGO).then(()=> {
+mongoose.connect(process.env.MONGODB_URI).then(()=> {
     console.log("Database Connected");
 }).catch((err)=>{
     console.log(err);

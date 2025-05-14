@@ -96,8 +96,8 @@ body {
 .form-component form select,
 .form-component form textarea {
   flex: 1;
-  font-size: 24px;
-  padding: 10px 10px 10px 40px;
+  font-size: 18px;
+  padding: 10px 10px 10px 20px;
   border-radius: 7px;
   border: 1px solid gray;
 }
@@ -576,4 +576,5 @@ input[type="time"]:before {
 }
 .logo-img{
   width: 120px;
+  padding-bottom: 10px;
 }
